@@ -1,0 +1,862 @@
+/* ألوان أسود وأصفر */
+.navbar {
+    background-color: #000;
+    /* أسود */
+}
+
+.cart-icon i {
+    font-size: 22px;
+    /* حجم الأيقونة */
+    color: #FFD700;
+    /* أصفر غامق */
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* .cart-icon i:hover { */
+    /* color: #fff; */
+    /* لون أبيض عند الهوفر */
+    /* transform: scale(1.2); */
+    /* تكبر شوية */
+/* } */
+
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+/* شكل الروابط */
+.nav-link {
+    color: white !important;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+/* خط أصفر يظهر تحت الرابط */
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #ffc107;
+    /* أصفر */
+    transition: width 0.3s ease;
+}
+
+/* لما المؤشر يقف على الرابط */
+.nav-link.hovered {
+    color: #ffc107 !important;
+}
+
+.nav-link.hovered::after {
+    width: 100%;
+}
+
+/* ألوان أسود وأصفر */
+.navbar {
+    background-color: #000;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: #ffc107 !important;
+}
+
+/* الروابط */
+.nav-link {
+    color: white !important;
+    position: relative;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+/* الخط المتحرك تحت الرابط */
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #ffc107;
+    transition: width 0.3s ease;
+}
+
+/* لما يحصل هوفر */
+.nav-link.hovered {
+    color: #ffc107 !important;
+}
+
+.nav-link.hovered::after {
+    width: 100%;
+}
+
+/* أيقونة السلة */
+.fa-shopping-cart {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.fa-shopping-cart:hover {
+    color: #ffc107;
+    transform: scale(1.2);
+}
+
+
+
+
+/* ألوان أسود وأصفر */
+.navbar {
+    background-color: #000;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: #ffc107 !important;
+}
+
+/* الروابط */
+.nav-link {
+    color: white !important;
+    position: relative;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+/* الخط المتحرك تحت الرابط */
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #ffc107;
+    transition: width 0.3s ease;
+}
+
+/* لما يحصل هوفر */
+.nav-link.hovered {
+    color: #ffc107 !important;
+}
+
+.nav-link.hovered::after {
+    width: 100%;
+}
+
+/* أيقونة السلة */
+.fa-shopping-cart {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.fa-shopping-cart:hover {
+    color: #ffc107;
+    transform: scale(1.2);
+}
+
+
+
+/* عرض السلة صغير (200px ≈ 20 سم) */
+.small-cart {
+    width: 350px !important;
+    /* ممكن تزود أو تقلل حسب ما تحب */
+    max-width: 350px !important;
+}
+
+
+
+
+
+.cart-icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#cartSidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 20px;
+    z-index: 999;
+    color: white;
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.cart-header h4 {
+    margin: 0;
+}
+
+.cart-header button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2;
+    cursor: pointer;
+}
+
+.cart-items {
+    padding: 10px;
+    max-height: 90%;
+    overflow-y: auto;
+}
+
+
+  .nav-link {
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      border-radius: 5px;
+      /* حواف ناعمة */
+      padding: 8px 12px;
+  }
+
+
+
+
+  /* تنسيق الكارد */
+
+
+
+
+                .product-card {
+                    transition: transform 0.3s ease;
+                }
+        
+                .product-card:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+                }
+        
+                .product-price {
+                    font-size: 1.2rem;
+                    color: #28a745;
+                    font-weight: bold;
+                }
+        
+                .rating i {
+                    color: gold;
+                }
+        
+                .add-to-cart {
+                    cursor: pointer;
+                    color: #ff9800;
+                    transition: color 0.3s ease;
+                }
+        
+                .add-to-cart:hover {
+                    color: #e65100;
+                }
+
+
+
+                /* هوفر الكارد */
+
+
+            /* ====== كاردات المنتجات ====== */
+            .product-card {
+                border: none;
+                transition: all 0.3s ease-in-out;
+                /* عشان الحركة تبقى ناعمة */
+                cursor: pointer;
+            }
+                
+            /* ====== الهوفر ====== */
+            .product-card:hover {
+                transform: translateY(-10px);
+                /* الكارد يطلع لفوق */
+                background: linear-gradient(135deg, #000000, #FFD700);
+                /* اسود × اصفر */
+                color: #fff;
+                /* خلي النص أبيض عشان يبان */
+             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+                /* ظل */
+            }
+            /* خلي النصوص جوه الكارد تبان كويس مع الخلفية */
+            .product-card:hover .card-title,
+            .product-card:hover .card-text,
+            .product-card:hover .product-price {
+                color: #fff;
+            }
+            /* الايقونات وقت الهوفر */
+            .product-card:hover .add-to-cart,
+            .product-card:hover .rating i {
+                color: #fff200;}
+                /* اصفر مدي على دهبي */
+        
+            /* نهاية الهوفر */
+
+
+            /* jksr jbjkluiuig */
+
+
+                        /* شكل النجوم */
+                        .stars {
+                            color: gold;
+                            font-size: 18px;
+                            letter-spacing: 2px;
+                        }
+            
+                        /* الكارد الأساسي */
+                        .product-card {
+                            transition: all 0.3s ease-in-out;
+                            border: 2px solid transparent;
+                            border-radius: 12px;
+                        }
+            
+                        /* تأثير الهوفر */
+                        .product-card:hover {
+                            transform: translateY(-10px);
+                            border-color: #ffc107;
+                            /* أصفر */
+                            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+                            background: #111;
+                            /* أسود */
+                            color: #ffc107;
+                            /* أصفر */
+                        }
+            
+                        .product-card:hover .btn-warning {
+                            background: #111;
+                            color: #ffc107;
+                            border: 1px solid #ffc107;
+                        }
+            
+                        .product-card:hover .bi-cart-fill {
+                            color: #ffc107 !important;
+                        }
+
+                        /* سيكشن من نحن */
+
+                        /* ====== من نحن ====== */
+                        .about-section {
+                            background: #f9f9f9;
+                            padding: 60px 0;
+                        }
+            
+                        .section-title {
+                            font-size: 28px;
+                            font-weight: bold;
+                            color: #222;
+                            border-left: 6px solid #f4b400;
+                            /* خط جانبي أصفر */
+                            padding-left: 12px;
+                        }
+            
+                        .about-text {
+                            color: #555;
+                            line-height: 1.8;
+                            margin-bottom: 15px;
+                            font-size: 16px;
+                        }
+            
+                        /* زرار من نحن */
+                        .btn-about {
+                            display: inline-block;
+                            background: #222;
+                            /* أسود */
+                            color: #fff;
+                            padding: 12px 25px;
+                            border-radius: 30px;
+                            font-weight: bold;
+                            text-decoration: none;
+                            transition: all 0.3s ease;
+                            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                        }
+
+                        .ggg{
+                            background: #1b0601;
+                            background-color: #1b0601;
+                        }
+            
+                        .btn-about:hover {
+                            background: #f4b400;
+                            /* أصفر */
+                            color: #222;
+                            transform: translateY(-3px);
+                            /* حركة خفيفة */
+                            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+                        }
+
+
+                /* ====== قسم الخدمات ====== */
+                .services-section {
+                    background: #fff;
+                    padding: 60px 0;
+                }
+        
+                .service-card {
+                    background: #f9f9f9;
+                    padding: 30px 20px;
+                    border-radius: 15px;
+                    transition: all 0.3s ease;
+                    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                }
+        
+                .service-card:hover {
+                    transform: translateY(-8px);
+                    background: #222;
+                    /* أسود */
+                    color: #f4b400;
+                    /* أصفر */
+                }
+        
+                .service-icon {
+                    font-size: 40px;
+                    margin-bottom: 15px;
+                    color: #f4b400;
+                    transition: all 0.3s ease;
+                }
+        
+                .service-card:hover .service-icon {
+                    color: #fff;
+                }
+        
+                .service-title {
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+        
+                .service-text {
+                    font-size: 15px;
+                    color: #555;
+                }
+            .about{
+                background-color: #70a728;
+            }
+
+
+            /* تنسيق سيكشن */
+
+
+        .producttt{
+
+            /* background: linear-gradient(to right, #d9ff00, #000000); */
+            background: radial-gradient(circle, #1b0601, #1b0601);
+            /* background: radial-gradient(circle, #1b0601, #0d1f3a); */
+        }
+
+        /* سيكشن تنسيق اراء العملاء */
+
+        #testimonials {
+            background: #000;
+            /* خلفية سكشن أسود */
+            position: relative;
+            background: #000;
+        }
+    
+        h2 {
+            text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
+        }
+    
+        .testimonial-card {
+            background: #111;
+            /* أسود غامق */
+            border: 2px solid #ffcc00;
+            border-radius: 20px;
+            color: #fff;
+            transition: all 0.4s ease;
+        }
+    
+        .testimonial-card h5 {
+            color: #ffcc00;
+        }
+    
+        .stars {
+            color: #ffcc00;
+            font-size: 1.2rem;
+        }
+    
+        .testimonial-card:hover {
+            background: #ffcc00;
+            /* يتحول للأصفر */
+            color: #000 !important;
+            transform: translateY(-10px) scale(1.03);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+    
+        .testimonial-card:hover h5,
+        .testimonial-card:hover .stars {
+            color: #000;
+        }
+
+        .clainete{
+            background: #000;
+        }
+
+    .text-center mb-5 fw-bold text-light bg-warning btn text-center{
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    .text-center mb-5 fw-bold text-light bg-warning btn text-center:hover{
+        background-color: #70a728;
+        font-size: 30px;
+        color: aqua;
+        width: 20px;
+        height: 5px;
+    }
+             
+    
+/* معرض الصور */
+#gallery {
+    background: linear-gradient(135deg, #000000, #FFD700);
+    color: #fff;
+    text-align: center;
+}
+
+#gallery h2 {
+    font-weight: bold;
+    color: #FFD700;
+}
+
+.carousel-inner img {
+    transition: transform 0.5s ease;
+}
+
+.carousel-inner img:hover {
+    transform: scale(1.05);
+}
+
+.carousel-caption h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+/* أسهم الكاروسيل */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #FFD700;
+    /* اللون الأصفر */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-size: 70% 70%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.5 0L4 1.5 6.5 4 4 6.5 5.5 8l4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.5 0L4 1.5 1.5 4 4 6.5 2.5 8l-4-4 4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 8%;
+}
+
+
+/* ====== خريطة Google Maps ====== */
+
+
+        /* ====== خريطة Google Maps ====== */
+        #map-section {
+            background: linear-gradient(135deg, #000000, #1a1a1a);
+        }
+    
+        #map-section h2 {
+            text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+        }
+    
+        .map-wrap {
+            position: relative;
+            width: 100%;
+            height: 480px;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+        }
+    
+        /* الخريطة نفسها */
+        .gmap {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            filter: grayscale(20%) contrast(105%) brightness(95%);
+        }
+    
+        /* طبقة تظليل */
+        .map-wrap::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(ellipse at center,
+                    rgba(0, 0, 0, 0) 40%,
+                    rgba(0, 0, 0, 0.25) 100%);
+            pointer-events: none;
+        }
+    
+        /* الكارت */
+        .map-card {
+            position: absolute;
+            right: 24px;
+            bottom: 24px;
+            background: rgba(0, 0, 0, 0.75);
+            color: #fff;
+            border: 1px solid #333;
+            border-radius: 16px;
+            padding: 18px 20px;
+            max-width: 320px;
+            backdrop-filter: blur(6px);
+        }
+    
+        .map-card h5 {
+            color: #ffd700;
+            font-weight: 700;
+        }
+    
+        /* أزرار */
+        .btn-map {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 14px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.25s ease, box-shadow 0.25s ease,
+                background 0.25s ease, color 0.25s ease;
+        }
+    
+        .btn-dir {
+            background: #ffd700;
+            color: #000;
+            box-shadow: 0 6px 16px rgba(255, 215, 0, 0.35);
+        }
+    
+        .btn-dir:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 22px rgba(255, 215, 0, 0.45);
+        }
+    
+        .btn-call {
+            background: transparent;
+            color: #ffd700;
+            border: 1px solid #ffd700;
+        }
+    
+        .btn-call:hover {
+            background: #ffd700;
+            color: #000;
+            transform: translateY(-3px);
+        }
+    
+        /* موبايل */
+        @media (max-width: 768px) {
+            .map-wrap {
+                height: 380px;
+            }
+    
+            .map-card {
+                left: 50%;
+                right: auto;
+                transform: translateX(-50%);
+                bottom: 16px;
+                max-width: calc(100% - 32px);
+                text-align: center;
+            }
+    
+            .map-card .d-flex {
+                justify-content: center;
+            }
+        }
+
+
+
+
+        /* تاثير الفوتر */
+
+
+        .footer-custom {
+            background: #000;
+            color: #fff;
+        }
+    
+        .footer-custom .brand-title {
+            color: #ffc107;
+        }
+    
+        .footer-custom .section-title {
+            color: #ffc107;
+        }
+    
+        .footer-custom .footer-line {
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+    
+        .footer-custom .footer-link {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease, padding-right 0.3s ease;
+        }
+    
+        .footer-custom .footer-link:hover {
+            color: #ffc107;
+            padding-right: 5px;
+        }
+    
+        .footer-custom .social-link {
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 1.5rem;
+            color: #fff;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+    
+        .footer-custom .social-link:hover {
+            color: #ffc107;
+            transform: scale(1.2);
+        }
+    
+        .footer-custom .footer-bottom {
+            background: #111;
+            color: #aaa;
+        }
+    
+        .footer-custom .brand-highlight {
+            color: #ffc107;
+        }
+        
+        .footer-link{
+
+            background-color: #ffbb00a1;
+            border: radius 5px; 
+            
+        }
+        .footer-link{
+            margin: 30px;
+        }
+
+        /* تنسيق سيكشن تواصل معنا */
+
+/* الكروت الأساسية */
+#contact .row .col-6 .p-4 {
+    background: #111;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+/* الهوفر */
+#contact .row .col-6 .p-4:hover {
+    background: linear-gradient(135deg, #ffc107, #111);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+.carousel{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* تنسيق صور الكارسول */
+
+/* ضبط صور الكاروسيل */
+.carousel-item img {
+    height: 500px;
+    /* ارتفاع ثابت للسلايدر */
+    object-fit: cover;
+    /* يغطي المساحة مع الحفاظ على التناسق */
+    object-position: center;
+    /* يركز الصورة في النص */
+}
+
+/* تصغير الارتفاع على الموبايل */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px;
+    }
+}
+
+/* زر اشترِ الآن */
+.carousel-caption .btn {
+    background: #ffc107;
+    color: #000;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 8px 20px;
+    transition: 0.3s ease;
+}
+
+.carousel-caption .btn:hover {
+    background: #000;
+    color: #ffc107;
+}
+
+            /* تنسيق النصوص فوق الصور */
+            .carousel-caption {
+                background: rgba(0, 0, 0, 0.5);
+                padding: 20px;
+                border-radius: 12px;
+            }
+
+            .carousel-caption h5 {
+                font-size: 1.8rem;
+                font-weight: bold;
+                color: #fff;
+            }
+
+            .carousel-caption .btn {
+                background: #ffc107;
+                color: #000;
+                font-weight: bold;
+                border-radius: 25px;
+                padding: 10px 20px;
+                transition: 0.3s ease;
+            }
+
+            .carousel-caption .btn:hover {
+                background: #000;
+                color: #ffc107;
+            }
+
+            /* لضبط الصور */
+            .carousel-item img {
+                height: 500px;
+                object-fit: cover;
+            }
+
+            @media (max-width: 768px) {
+                .carousel-item img {
+                    height: 300px;
+                }
+
+                .carousel-caption h5 {
+                    font-size: 1.2rem;
+                }
+            }
